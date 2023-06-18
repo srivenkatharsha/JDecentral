@@ -17,6 +17,32 @@ We successfully built a decentralized journalist platform that empowers users to
 Throughout the course of this project, we acquired a profound comprehension of the Hedera Hashgraph Consensus Service (HCS) and its practical applications. Additionally, we significantly augmented our proficiency in effectively utilizing the MERN Stack, thereby fortifying our skill set in developing robust and scalable web solutions.
 ## What's next for JDecentral
 In the future, we plan to expand the platform's functionality by incorporating better security, live chat and social sharing capabilities. We will continue to refine the user interface and explore additional integrations with Hedera's ecosystem.
+# Installation
+1. Clone the repository
+2. Install the dependencies in both `/frontend` and `/backend` folders using:
+```
+npm i
+```
+3. Create a `.env` file in `/backend` directory and enter the data in the format
+```
+USERNAME=<YOUR_DB_USERNAME>
+PASSWORD=<YOUR_DB_PASSWORD>
+DATABASE=<DATABASE_NAME>
+DB_URI=<DATABASE_CONNECTION_URI>
+PORT_NUMBER=3000
+ACCOUNT_ID=<HEDERA_ACCOUNT_ID>
+DER_ENCODED_PRIVATE_KEY=<HEDERA_PRIVATE_KEY
+```
+4. To run the frontend
+```
+cd ./frontend
+npm run dev
+```
+5. To run the backend
+```
+cd ./backend
+node index.js
+```
 
 ## Authors
 - [@srivenkatharsha](https://www.github.com/srivenkatharsha)
