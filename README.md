@@ -18,6 +18,11 @@ Throughout the course of this project, we acquired a profound comprehension of t
 ## What's next for JDecentral
 In the future, we plan to expand the platform's functionality by incorporating better security, live chat and social sharing capabilities. We will continue to refine the user interface and explore additional integrations with Hedera's ecosystem.
 
+## Authors
+- [@srivenkatharsha](https://www.github.com/srivenkatharsha)
+- [@akshay-lite](https://github.com/Sai-Akshay)
+
+
 
 
 
