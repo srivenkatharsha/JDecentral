@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body, #root {
+  height: 100vh;
+}
+
+p, h1, h2, h3 {
+  font-family: 'Montserrat';
+}
+
+.background {
+  background-image: url(/wallpaper2.jpg);
+  /* Photo by Jeremy Bishop on Unsplash */
+  background-repeat: round;
+  background-color: black;
+}
+
+.MuiCardMedia-img {
+  height: 300px;
+  width: 45px;
+}
